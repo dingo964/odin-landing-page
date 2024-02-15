@@ -8,9 +8,16 @@
   src: url(../fonts/Roboto-Thin.ttf);
 }
 
+@font-face {
+  font-family: roboto-black;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+
 body {
   font-family: Roboto;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -18,22 +25,60 @@ a {
   color: #F9FAF8;
 }
 
+.secondary-text {
+  font-family: roboto-thin;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 90px 25px;
+    padding: 18px 60px 25px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .header-logo {
   font-size: 24px;
   font-weight: 700;
+  width: 450px;
 }
 
 .header-right {
   display: flex;
-  font-family: roboto-thin;
   gap: 30px;
+  width: 450px;
+}
+
+.intro {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  padding: 60px 75px 60px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.intro-left {
+  width: 450px;
+  height: 250px;
+}
+
+.main-text {
+  font-family: roboto-black;
+  font-size: 48px;
+}
+
+.placeholder-image {
+  background-color: rgb(73, 73, 73);
+  text-align: center;
+  display: flex;
+  flex-shrink: 0;
+  width: 450px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
 }
