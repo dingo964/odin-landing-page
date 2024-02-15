@@ -3,10 +3,37 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: roboto-thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
 body {
   font-family: Roboto;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
 }
 
 .header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 90px 25px;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  font-family: roboto-thin;
+  gap: 30px;
 }
