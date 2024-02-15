@@ -38,6 +38,7 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    gap: 25px;
 }
 
 .header-logo {
@@ -50,6 +51,7 @@ a {
   display: flex;
   gap: 30px;
   width: 450px;
+  margin-right: -25px;
 }
 
 .intro {
@@ -81,4 +83,41 @@ a {
   height: 250px;
   justify-content: center;
   align-items: center;
+}
+
+.information-header {
+  text-align: center;
+  font-size: 36px;
+  font-family: roboto-black;
+  margin: 45px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: nowrap;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+.card-text {
+  text-align: center;
+  width: 150px;
+  color: #1F2937;
 }
