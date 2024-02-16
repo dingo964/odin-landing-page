@@ -13,6 +13,11 @@
   src: url(../fonts/Roboto-Black.ttf);
 }
 
+@font-face {
+  font-family: roboto-light-italic;
+  src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
 body {
   font-family: Roboto;
   margin: 0;
@@ -130,4 +135,68 @@ a {
   text-align: center;
   width: 150px;
   color: #1F2937;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 100px;
+  flex-wrap: wrap;
+  flex: 1;
+
+}
+
+.quote {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.quote-text {
+  font-family: roboto-light-italic;
+  font-size: 36px;
+  color: #1F2937;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quote-author {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  margin: 100px 350px;
+  color: white;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.action-sub-text {
+  font-weight: 700;
+}
+
+.sign-up-button-2 {
+  background-color: #3882F6;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 1px 50px;
+  font-family: roboto-black;
+  font-size: 18px;
 }
